@@ -16,7 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
+        node-version: [18.`package.json` is missing from the root directory**. The workflow is running `npm ci` at the repository root, but the file doesn't exist there.
+
+Looking at the logs, npm is looking for:
 
     steps:
     - uses: actions/checkout@v4
